@@ -6,3 +6,4 @@ metadata:
     app.kubernetes.io/component: rollouts-controller
     app.kubernetes.io/name: argo-rollouts
     app.kubernetes.io/part-of: argo-rollouts
+  namespace: argo-rollouts
