@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   annotations:
     meta.helm.sh/release-name: argo-rollouts
-    meta.helm.sh/release-namespace: default
+    meta.helm.sh/release-namespace: argo-rollouts
   creationTimestamp: '2022-11-18T02:43:19Z'
   labels:
     app.kubernetes.io/component: rollouts-controller
@@ -14,6 +14,5 @@ metadata:
     app.kubernetes.io/version: v1.3.1
     helm.sh/chart: argo-rollouts-2.21.1
   name: argo-rollouts-notification-configmap
-  namespace: argo-rollouts
   resourceVersion: '1650'
   uid: 7540f828-1912-4b88-8d2a-3e56d1502626
